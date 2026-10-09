@@ -1,4 +1,4 @@
-# fishmorph-svm
+# Fishmorph-svm
 
 Classificação taxonômica de peixes de água doce a partir de medidas morfológicas, usando **SVM (Support Vector Machine)**. O projeto usa o dataset [FishMorph](https://www.kaggle.com/datasets/menegidio/fishmorph-dataset), do Kaggle, e tem dois notebooks: um classifica por **ordem** e outro por **família**.
 
