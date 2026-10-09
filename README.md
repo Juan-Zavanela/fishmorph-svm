@@ -22,24 +22,6 @@ Classificação taxonômica de peixes de água doce a partir de medidas morfoló
    - `gamma`: 0.001, 0.01, 0.1, 1
 9. Avaliação no conjunto de teste: acurácia, relatório de classificação e matriz de confusão normalizada
 
-## Resultados
-
-### Família
-
-- **Modelo:** SVC
-- **Melhores parâmetros:** `kernel="rbf"`, `C=10`, `gamma=0.1`
-- **Acurácia média na validação cruzada:** 0,6785
-- **Acurácia no teste:** 0,6889
-
-As acurácias de validação e de teste ficaram próximas, o que indica boa generalização e ausência de overfitting. A matriz de confusão mostra que as famílias com mais exemplos, como Cyprinidae, concentram boa parte dos erros de classes menores, efeito do desbalanceamento.
-
-### Ordem
-
-- **Modelo:** SVC
-- **Melhores parâmetros:** `kernel=...`, `C=...`, `gamma=...`
-- **Acurácia média na validação cruzada:** ...
-- **Acurácia no teste:** ...
-
 ## Observações
 
 - Classes com poucos exemplos foram removidas por limitação técnica da divisão estratificada e da validação cruzada.
